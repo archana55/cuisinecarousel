@@ -1,0 +1,10 @@
+.SideNav{
+    height: 100% ;
+    width: 300px;
+    background-color: rgb(46, 95, 185);
+    position: absolute;
+    border: 1px solid transparent;
+    left: 0;
+    text-align:center;
+    margin-top: 3rem;
+}

@@ -1,7 +1,8 @@
-.App {
+App {
+  margin: 0;
   text-align: center;
 }
-
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,18 +13,54 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+*/
+
+.container {
+  background-color: #282c34;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 8fr;
+  grid-template-columns: 3fr 10fr;
+}
+
+.Header {
+  grid-row: 1;
+  grid-column: 1 / -1;
+}
+
+.SideNav {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.CuisineRecipe {
+  grid-row: 2;
+  grid-column: 2;
+}
 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction:row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.App-body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  /*font-size: calc(10px + 2vmin);
+  color: white;*/
+}
+/*
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +73,4 @@
     transform: rotate(360deg);
   }
 }
+*/
