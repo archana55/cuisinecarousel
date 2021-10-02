@@ -16,6 +16,14 @@ export const RecipeList  = [
     "recipe": "dinner",
   },
   {
+    "id": 3,
+    "label": "Zuni-Inspired Grilled Chicken Salad",
+    "image": "https://www.edamam.com/web-img/3ac/3accba1eeb5ac38d902d056050c05ead.jpg",
+    "url": "https://food52.com/recipes/82361-zuni-inspired-grilled-chicken-salad-recipe",
+    "cuisine": "american",
+    "recipe": "lunch",
+  },
+  {
     "id": 4,  
     "label": "Pasta alla Gricia Recipe",
     "image": "https://www.edamam.com/web-img/bb5/bb5bad0cbcb94ad2ef0895d444f30291.jpg",
@@ -24,7 +32,15 @@ export const RecipeList  = [
     "recipe": "dinner",
   },
   {
-    "id": 5,  
+    "id": 5,
+    "label": "Baked Cheesy Burger Buns",
+    "image": "https://www.mimiscafe.com/wp-content/uploads/2019/03/Quiche-Lorraine_840x560-px.jpg",
+    "url": "http://www.thedailymeal.com/recipes/baked-cheesy-burger-buns-recipe",
+    "cuisine": "american",
+    "recipe": "lunch",
+  },
+  {
+    "id": 6,  
     "label": "Guacamole Pasta",
     "image": "https://www.edamam.com/web-img/c3b/c3b2202bcd51fcb362abf83a683ac758.JPG",   
     "url": "https://food52.com/recipes/29760-guacamole-pasta",
