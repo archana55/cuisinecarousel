@@ -1,6 +1,6 @@
 import classes from './StyleButtons.module.css'
 const StyleButtons = (props) => {
-    return <button className={classes.button}>
+    return <button className={classes.button} onClick={props.onClick}>
         {props.label}
     </button>
 };

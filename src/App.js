@@ -1,7 +1,6 @@
 import './App.css';
 import SideNav from './components/SideNav';
 import Header from './components/Header';
-import CuisineRecipe from './components/CuisineRecipe';
 import LandingPage from './components/LandingPage'
 function App() {
   return (

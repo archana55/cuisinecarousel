@@ -1,0 +1,67 @@
+.form {
+    text-align: left;
+  }
+
+  .form button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .form button:hover,
+  .form button:active {
+    background-color: #641e03;
+    border-color: #641e03;
+  }
+
+  .form ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .form li {
+    float: left;
+  }
+
+  .login {
+    width: 90%;
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+  
+  .input {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 40rem;
+    display: inline;
+  }
+  
+  .input label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    padding-right: 1rem;
+    display: inline-block;
+  }
+  
+  .input input {
+    font: inherit;
+    width: 70%;
+    border: 1px solid #ccc;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+  }
+  
+  .input input:focus {
+    outline: none;
+    border-color: #4f005f;
+  }
