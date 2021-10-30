@@ -43,22 +43,14 @@ const Header = React.memo( props => {
         setLoggedIn(false);
     }
 
+    const APISearchHandler = () => {
+
+    }
     return <Fragment> 
         <header className={classes.header}>
             <h1>Cuisine Carousel {props.query}</h1>
             <ul>
-            <li>
-              <div class="input-group mb-3">
-                 <input type="text" class="form-control" placeholder="API Search" 
-                  aria-label="API Search" aria-describedby="button-addon2"
-                   value={props.query} onChange={props.onChange} />
-                 <div class="input-group-append">
-                    <a href='/Search'>
-                    <button class="btn btn-outline-primary" type="button" 
-                    id="Search"  onClick={props.onSearch}>Search</button></a>
-                 </div>
-              </div>
-            </li>
+            {loggedIn && <li><a href='/Search'><StyleButtons label="API Search" onClick={APISearchHandler} /></a></li>}
             {loggedIn && <li><StyleButtons label="Add Recipe" onClick={showAddFormHandler} /></li>}
             {!loggedIn && <li><StyleButtons label="Login" onClick={showLoginFormHandler}/></li>}
             {loggedIn && <li><StyleButtons label="Logout" onClick={logoutHandler}/></li>}

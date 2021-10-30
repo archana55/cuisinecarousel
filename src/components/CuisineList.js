@@ -11,7 +11,9 @@ const CuisineList = props => {
       return (
          <Col md={5}> 
         <Card>
-        <Card.Img src={Recipe.image}></Card.Img>
+        <Card.Img src={Recipe.image} style={{  cursor: 'pointer'}} onClick={() => {
+                            window.open(Recipe.url)
+                        }}></Card.Img>
         <Card.Body>
             <Card.Title style={{  width: '20rem'}}>Name: {Recipe.label}</Card.Title>
             <Card.Title>Cuisine: {Recipe.cuisine}</Card.Title>

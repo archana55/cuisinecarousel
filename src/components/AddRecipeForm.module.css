@@ -41,7 +41,14 @@
   }
   
   .form div {
-      padding-bottom: 20px;
+      padding-bottom: 30px;
+      
+  }
+
+  .form div span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
   }
 
   .form inlineLabel {
@@ -117,5 +124,3 @@
   .form span {
     display:inline-block;
   }
-  
-
