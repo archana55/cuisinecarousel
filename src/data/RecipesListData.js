@@ -1,4 +1,4 @@
-export const RecipeList  = [
+export const RecipesListData  = [
   {
     "id": 1,
     "label": "Sweet potato masala dosa with coconut raita",

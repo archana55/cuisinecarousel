@@ -17,14 +17,16 @@
 
 .SideItemMenu {
     width: 100%;
-    padding-top: 5px;
+    height: auto;
+    padding-top: 0px;
     align-content: flex-end;
+    margin-bottom: 0px;
 }
 
 .SideItemMenu p{
-    margin-top: 5px; 
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin-top: 1px; 
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 p {
@@ -42,13 +44,15 @@ a:link, a:visited {
     color: white;
     margin-left: 0%;
     margin-right: 0%;
-    text-align: center;
+    text-align:center;
     text-decoration: none;
     display: inline-block;
   }
   
   a:hover, a:active {
-    background-color: rgb(46, 82, 255);
+    background-color: #ffffff !important;
+    /*opacity: 0.1 !important;*/
     margin-left:0%;
     margin-right:0%;
+    display: block;
   }
