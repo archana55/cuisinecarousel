@@ -1,7 +1,6 @@
 import Modal from './Modal';
 import { Button, Form } from 'react-bootstrap-v5';
 import { useState } from 'react';
-import classes from './LoginForm.modules.css'
 const LoginForm = props => {
  
     const [enteredemail, setenteredemail] = useState("");
@@ -21,7 +20,7 @@ const LoginForm = props => {
     const FormSubmitHandler = (e) => {
         e.preventDefault()
         
-        var email = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        var email = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
         var passw=  /^[A-Za-z]\w{5,14}$/;
         if (!(email.test(enteredemail)) || !(enteredpassword.match(passw)))
           {

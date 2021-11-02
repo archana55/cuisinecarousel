@@ -12,7 +12,7 @@ import { useState } from 'react';
 function App() {  
   
   const [query, setquery] = useState(""); 
-  const [test, setTest] = useState("Testing");
+  //const [test, setTest] = useState("Testing");
   const searchQueryHandler = (e) => {
     setquery(e.target.value);
     console.log(query);

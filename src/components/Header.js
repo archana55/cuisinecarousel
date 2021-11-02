@@ -4,7 +4,6 @@ import StyleButtons from './StyleButtons';
 import AddRecipeForm from './AddRecipeForm';
 import LoginForm from './LoginForm';
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Header = React.memo( props => {
     const [showAddForm, setShowAddForm] = useState(false);
@@ -34,10 +33,6 @@ const Header = React.memo( props => {
         console.log("Submitted");
     }
     const [loggedIn, setLoggedIn] = useState(false);
-
-    const loginHandler = () => {
-        setLoggedIn(true);
-    }
 
     const logoutHandler = () => {
         setLoggedIn(false);

@@ -23,6 +23,7 @@
   
   .header li {
     float: left;
+    margin: 10px;
   }
 
   .header a {
