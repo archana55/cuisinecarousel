@@ -1,0 +1,1 @@
+export const RecipeUrl = 'https://cuisinecarousel-a9dd7-default-rtdb.firebaseio.com/recipes.json';

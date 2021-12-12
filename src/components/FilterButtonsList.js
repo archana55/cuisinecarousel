@@ -12,6 +12,7 @@ const FilterButtonsList = props => {
             {FilterButtons.map((FilterButton, index) =>{
                 return <li> <StyleButtons label={FilterButton.title} onClick={props.onFilterSelected} /></li>;
             })}
+            <li> <StyleButtons label="All" onClick={props.onFilterSelected} /></li>;
             </ul>
         </div>
     );

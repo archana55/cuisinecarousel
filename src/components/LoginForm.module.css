@@ -1,0 +1,12 @@
+.errortext {
+    color: red !important;
+}
+
+.LoginForm {
+    
+}
+.LoginForm p {
+    border-style: none;
+    font-weight:normal;
+    text-align: center;
+}

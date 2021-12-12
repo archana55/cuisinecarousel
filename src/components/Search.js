@@ -38,7 +38,7 @@ const Search = (props) => {
                 return (
                     <Col md={5}>
                         <Card>
-                        <Card.Img src={Recipe.recipe.image} style={{  cursor: 'pointer'}} onClick={() => {
+                        <Card.Img src={Recipe.recipe.image} style={{  cursor: 'pointer', borderRadius:'25%'}} onClick={() => {
                             window.open(Recipe.recipe.url)
                         }}></Card.Img>
                         <Card.Body>

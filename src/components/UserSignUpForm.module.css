@@ -1,0 +1,11 @@
+.errortext {
+    color: red !important;
+}
+
+.UserSignupForm {
+
+} 
+.UserSignupForm p {
+    border-style: none;
+    font-weight:normal;
+}

@@ -6,7 +6,8 @@ const SideItem = ({items}) =>{
     const [isOpen, setOpen] = useState(open);
 
     const openSideNav = ()=>{
-        setOpen(!isOpen);
+        //setOpen(!isOpen);
+        setOpen(true);
     };
 
     return(

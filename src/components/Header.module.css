@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 97%;
     height: 10%;
     background-color: rgb(46, 95, 185);
     color: white;
@@ -29,6 +29,10 @@
   .header a {
     border-radius: 25px;
     color: #000;
+  }
+
+  .header h1 a:hover {
+    text-decoration: none;
   }
   
   
