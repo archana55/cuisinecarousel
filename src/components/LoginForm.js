@@ -56,11 +56,11 @@ const LoginForm = props => {
         </Form.Group>
 
         <br />
-        <div className="d-grid gap-2">
+        <div className ="text-center">
         <Button variant="primary" type="button"  onClick={FormSubmitHandler}> 
             Log In
         </Button>
-       </div>
+        </div>
         </Form>
         <br /><br />
         <div className={classes.LoginForm}>
